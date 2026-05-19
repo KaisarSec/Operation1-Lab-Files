@@ -12,6 +12,9 @@ Manual Setup (if you prefer it) :
   - Update it
   - Install curl and ansible
     ###### Download the playbook
-    wget URL/manual_setup/build_lab_op1.yml    
+    wget URL/build_lab_op1.yml    
     ###### Run it
     sudo ansible-playbook -i "localhost," -c local build_lab_op1.yml
+
+    ##### Download the lab reset script
+    wget URL/lab-reset.sh
