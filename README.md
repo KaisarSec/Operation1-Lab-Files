@@ -14,4 +14,4 @@ Manual Setup (if you prefer it) :
     ###### Download the playbook
     wget URL/manual_setup/build_lab_op1.yml    
     ###### Run it
-    sudo ansible-playbook -i "localhost," -c local build_lab_op1/yml
+    sudo ansible-playbook -i "localhost," -c local build_lab_op1.yml
