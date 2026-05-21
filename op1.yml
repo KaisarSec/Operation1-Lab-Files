@@ -1,0 +1,13 @@
+- name: Create a file in the home directory
+  hosts: localhost
+  connection: local
+  gather_facts: yes  # This is required to find the home directory variable
+
+  tasks:
+    - name: Create a text file with specific content
+      copy:
+        dest: "{{ ansible_env.HOME }}/ctf_note.txt"
+        content: |
+          Welcome to the CTF Lab!
+          Your first challenge awaits.
+        mode: '0644'
