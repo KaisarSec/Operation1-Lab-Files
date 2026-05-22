@@ -1,6 +1,6 @@
 ## Direct download (the Quick Way)
-1. Click on Debian-VM.zip to download it, unzip the machine and open it in VMware
-2. Inside the VM, click on setup.sh to download it, run it using :
+1. Download the Debian Virtual Machine at : https://github.com/KaisarSec/DebianVM
+2. Inside the VM, clone this repository by running :
 ```
 bash setup.sh
 ```
