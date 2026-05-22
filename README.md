@@ -2,7 +2,7 @@
 
 1. Download the Debian Virtual Machine at : https://github.com/KaisarSec/DebianVM
 
-2. clone this repository :
+2. Clone this repository :
 ```
 git clone https://github.com/KaisarSec/Operation1-Lab-Files.git ~/Operation1-Lab-Files.git
 ```
@@ -14,14 +14,13 @@ bash setup.sh
 ```
 
 
-## Manual Setup (if you prefer that)
-  - Set up a VM of choice (of the one provided)
-  - Update it
-  - Install curl and ansible
-    ###### Download the playbook
-    wget URL/build_lab_op1.yml    
-    ###### Run it
-    sudo ansible-playbook -i "localhost," -c local build_lab_op1.yml
-
-    ##### Download the lab reset script
-    wget URL/lab-reset.sh
+## Manual Setup (if you prefer it)
+1. Download a Virtual Machine of choice, or you can use this simple Debian VM : https://github.com/KaisarSec/DebianVM
+2. Install git on the Virtual Machine
+3. Install Ansible
+4. Clone the github repository
+5. Inside the repo, run the op1.yml playbook to configure the machine :
+```
+# You can also run this same command if you want to reset the lab
+ansible-playbook op1.yml
+```
