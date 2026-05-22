@@ -2,9 +2,9 @@
 1. Download the Debian Virtual Machine at : https://github.com/KaisarSec/DebianVM
 2. Inside the VM, clone this repository by running :
 ```
-bash setup.sh
+git clone https://github.com/KaisarSec/Operation1-Lab-Files.git ~/Operation1-Lab-Files.git
 ```
-> There will be a link for this github repository pinned in the Firefox browser of the Virtual Machine
+> The repository will be in your home directory /home/{USERNAME}
 
 
 ## Manual Setup (if you prefer that)
