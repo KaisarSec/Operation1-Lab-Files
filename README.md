@@ -1,10 +1,17 @@
 ## Direct download (the Quick Way)
+
 1. Download the Debian Virtual Machine at : https://github.com/KaisarSec/DebianVM
-2. Inside the VM, clone this repository by running :
+
+2. clone this repository :
 ```
 git clone https://github.com/KaisarSec/Operation1-Lab-Files.git ~/Operation1-Lab-Files.git
 ```
-> The repository will be in your home directory /home/{USERNAME}
+> The repository will be in your home directory
+
+3. Inside the cloned repository, run the installation script :
+```
+bash setup.sh
+```
 
 
 ## Manual Setup (if you prefer that)
