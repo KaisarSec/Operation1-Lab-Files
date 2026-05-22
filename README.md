@@ -2,9 +2,7 @@
 
 1. Download the Debian Virtual Machine at : https://github.com/KaisarSec/DebianVM
 
-2. Download the repository (If you are on Windows) : https://github.com/KaisarSec/Operation1-Lab-Files/archive/refs/heads/main.zip
-
-3. Clone the repository (If you are on Linux) :
+2. Clone the repository to the VM :
 ```
 git clone https://github.com/KaisarSec/Operation1-Lab-Files.git ~/Operation1-Lab-Files.git
 ```
