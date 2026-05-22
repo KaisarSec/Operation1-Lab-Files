@@ -1,10 +1,10 @@
 ## Direct download (the Quick Way)
-  - Click on VM.zip, unzip it and run it in VMWARE
-  - Inside the VM :
-    run :
-      curl URL -o setup.sh | sudo bash
-    or simply click on setup.sh, download it and run :
-      sudo bash setup.sh
+1. Click on Debian-VM.zip to download it, unzip the machine and open it in VMware
+2. Inside the VM, click on setup.sh to download it, run it using :
+```
+bash setup.sh
+```
+> There will be a link for this github repository pinned in the Firefox browser of the Virtual Machine
 
 
 ## Manual Setup (if you prefer that)
