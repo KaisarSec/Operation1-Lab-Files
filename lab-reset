@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Checks what lab is active and re-runs the playbook
+sudo ansible-playbook -i "localhost," -c local `cat ~/.currentlab`
+
