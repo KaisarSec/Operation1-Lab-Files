@@ -1,4 +1,4 @@
-Direct download (the Quick Way):
+## Direct download (the Quick Way)
   - Click on VM.zip, unzip it and run it in VMWARE
   - Inside the VM :
     run :
@@ -7,7 +7,7 @@ Direct download (the Quick Way):
       sudo bash setup.sh
 
 
-Manual Setup (if you prefer it) :
+## Manual Setup (if you prefer that)
   - Set up a VM of choice (of the one provided)
   - Update it
   - Install curl and ansible
