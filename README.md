@@ -15,7 +15,7 @@ bash setup.sh
 
 ## Manual Setup (if you prefer it)
 
-1. Download a Virtual Machine of choice, or you can use this simple Debian VM : https://github.com/KaisarSec/DebianVM
+1. Download a Linux Virtual Machine of choice
 
 2. Install git on the Virtual Machine
 
