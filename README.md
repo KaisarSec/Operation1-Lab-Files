@@ -17,7 +17,7 @@ bash setup.sh
 
 1. Download a Linux Virtual Machine of choice
 
-2. Install git on the Virtual Machine
+2. Install git on the VM
 
 3. Install Ansible
 
