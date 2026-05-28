@@ -6,7 +6,6 @@
 ```
 git clone https://github.com/KaisarSec/Operation1-Lab-Files.git ~/Operation1-Lab-Files.git
 ```
-> The repository will be in your home directory
 
 4. Inside the cloned repository, run the installation script :
 ```
