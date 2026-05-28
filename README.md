@@ -7,7 +7,7 @@
 git clone https://github.com/KaisarSec/Operation1-Lab-Files.git ~/Operation1-Lab-Files.git
 ```
 
-4. Inside the cloned repository, run the installation script :
+3. Inside the cloned repository, run the installation script :
 ```
 bash setup.sh
 ```
